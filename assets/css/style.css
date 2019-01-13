@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+/*NAVIGATION*/
+.navigation {
+    background-color: black;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    border-bottom: 1px solid grey;
+    width: 960px;
+    margin: 0 auto;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.name{
+    background-color:#4aaaa5;
+    color:white;
+}
+
+/*CONTENT SECTION*/
+#content {
+    width: 960px;
+    margin: 0 auto;
+}
