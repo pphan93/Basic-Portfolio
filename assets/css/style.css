@@ -12,17 +12,16 @@ html, body{
   
 
 /*NAVIGATION*/
-.navigation {
+.header {
     background-color: black;
+    border-bottom: 2px solid#4aaaa5;
 }
 
-.navigation ul {
+.header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
-    border-bottom: 1px solid grey;
     width: 960px;
     margin: 0 auto;
 }
@@ -33,7 +32,7 @@ li {
 
 li a {
     display: block;
-    color: grey;
+    color: white;
     text-align: center;
     padding: 10px 14px;
     text-decoration: none;
@@ -53,11 +52,17 @@ li a:hover:not(.active) {
 }
 
 /*CONTENT SECTION*/
-.content {
+
+.content-wrapper {
     width: 960px;
     margin: 0 auto;
     overflow: auto;
-    padding-bottom: 50px;
+    padding-top:10px;
+    padding-bottom: 68px;
+}
+
+.content{
+    border: 1px solid grey;
 }
 
 /*FOOTER*/
@@ -75,14 +80,15 @@ li a:hover:not(.active) {
 }
 */
 
+
 .footer {
     background-color: black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    margin-top: -50px;
     text-align: center;
-    color: grey;
-     width: 100%;
-     height: 50px;
-     position: absolute;
-     bottom: 0;
-     margin-top: -50px;
-     border-top: 8px solid #4aaaa5;
+    color: white;
+    border-top: 8px solid #4aaaa5;
    }
