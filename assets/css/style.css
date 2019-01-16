@@ -85,9 +85,6 @@ li a:hover:not(.active):not(.name) {
     padding-bottom: 15px;
 }
 
-p{
-    
-}
 
 /*INDEX CSS SECTION*/
 
@@ -129,39 +126,22 @@ p{
     padding: 0 4px;
 */
 
-.gallery{
+#gallery{
     /*
     width: 100%;
     height:auto;
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;*/
-    display: flex;
+    margin: 10px 0 0 10px;
     position: relative;
-    padding: 0;
+    float: left;
+}
+
+#image h2{
     margin: 0;
-}
+    padding: 20px;
 
-figure{
-    width: 200px;
-
-  }
-
-figure img{
-    width: 100%;
-}
-
-figcaption {
-    display: block;
-    position: absolute;
-    width: 100%;
-    color: rgb(238, 17, 17);
-    left: 0;
-    bottom: 0;
-    padding: 1em;
-    font-weight: 700;
-    z-index: 2;
-    box-sizing: border-box;
 }
 
 /*
