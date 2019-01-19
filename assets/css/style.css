@@ -99,7 +99,7 @@ li a:hover:not(.active):not(.name) {
 }
 
 .content h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
     border-bottom: 2px solid #cccccc;
     padding-bottom: 15px;
@@ -144,7 +144,7 @@ li a:hover:not(.active):not(.name) {
 /*flow images side by side and make text overlay the image*/
 
 .image_wrapper {
-    width: 500px;
+    max-width: 500px;
 }
 
 .image {
