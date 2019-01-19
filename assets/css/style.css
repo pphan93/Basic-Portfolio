@@ -143,6 +143,10 @@ li a:hover:not(.active):not(.name) {
 
 /*flow images side by side and make text overlay the image*/
 
+.image_wrapper {
+    width: 500px;
+}
+
 .image {
     /*make the image to show side by side*/
     float: left;
